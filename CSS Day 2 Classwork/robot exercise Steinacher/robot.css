@@ -1,0 +1,15 @@
+img {
+  width: 50px;
+}
+#face {
+  width: 400px;
+}
+#mouth1{
+  width: 20%;
+  position: absolute;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: 100%;
+  
+  top: 250px;
+}
