@@ -1,0 +1,47 @@
+.container{
+    position: absolute;
+    left: 280px;
+    width: 800px;
+    /* box-shadow: 12px 0 15px -4px rgba(31, 73, 125, 0.8), -12px 0 8px -4px rgba(31, 73, 125, 0.8);*/
+    box-shadow: 0 0 15px 0px #000;
+}
+p{
+    color: #707070;
+}
+
+header{
+    text-align: center;
+}
+
+h1{
+    color: #DB0038;
+}
+
+h2{
+    color: #3998A3;
+}
+
+h3{
+    color: #474747;
+}
+
+.hero{
+    color: #f4f4f4;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+li{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.rating{
+    color: #F4B400;
+    font-size: 25px;
+}
+
+footer{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+}
