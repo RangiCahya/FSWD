@@ -1,0 +1,66 @@
+nav span {
+  background-color: rgb(220, 220, 220);
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+}
+
+a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 40px;
+}
+
+span {
+  border-style: groove;
+}
+
+.hero0 {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 272px;
+    height: 420px;
+    width: 900px;
+    color: black;
+    border-style: groove;
+    border-color: black;
+    background-color: rgb(112, 112, 112);
+  }
+
+.hero {
+  position: relative;
+  margin-top: 20px;
+  margin-left: 272px;
+  height: 200px;
+  width: 900px;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: larger;
+ 
+}
+
+form {
+    position: relative;
+  margin-top: 20px;
+  margin-left: 272px;
+  height: 200px;
+  width: 900px;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: larger;
+
+}
+
+footer {
+    text-align: center;
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 30px;
+}
+
+
+body {
+    background-image: url("https://www.photohdx.com/images/2016/11/blue-cloudy-sky-background.jpg");
+    
+   }
