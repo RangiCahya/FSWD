@@ -62,6 +62,7 @@ p {
 .flex-container {
   display: flex;
   justify-content: space-between;
+  /*flex-basis: 10%;*/
 }
 
 .flex-container2 {
@@ -75,6 +76,7 @@ hr {
   padding: 0px;
 }
 
+/* Dieses Element mit flex-basis machen!*/
 .item1 {
   width: 60%;
   text-align: start;
@@ -89,3 +91,4 @@ hr {
 .klein {
 font-size: x-small;
 }
+
