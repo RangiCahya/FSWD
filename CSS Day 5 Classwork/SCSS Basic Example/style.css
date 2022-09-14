@@ -26,7 +26,6 @@
   text-align: center;
   padding-top: 15px;
 }
-
 .grid-item:hover {
   transition: 500ms;
   font-size: larger;
