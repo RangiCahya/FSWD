@@ -1,48 +1,46 @@
 let people = ['Greg', 'Mary', 'Devon', 'James'];
 
-
-//   Remove "Greg" from the array.
+//1.Remove "Greg" from the array.
 people.shift();
 console.log(people);
 
-// Add "Matt" to the front of the array.
+//2.Add "Matt" to the front of the array.
 people.unshift('Matt');
 console.log(people);
 
-//   Remove “James” from the array.
+// 3.Remove “James” from the array.
 people.pop();
 console.log(people);
 
-//  Add your name to the end of the array.
+//4.Add your name to the end of the array.
 people.push('Gloria');
 console.log(people);
 
-// copy + new array without first 2 elements
+//5. copy  array + remove first 2 elements
 console.log(people.slice(2));
 
 console.log(people.indexOf('Mary'));
 console.log(people.indexOf('Foo'));
 
-// Redefine the people variable with the values you started with.
-people.splice(0, 5, 'Greg','Mary','Devon','James')
+//8. Redefine the people variable with the values you started with.
+people.splice(0, 5, 'Greg', 'Mary', 'Devon', 'James');
 console.log(people);
 
-// 9.splice(start, deleteCount, item1), remove "Devon" from the array and add "Elizabeth" and "Anna"
+// 9.splice(start, deleteCount, item1). We remove "Devon" from the array & add "Elizabeth" & "Anna"
 people.splice(2, 1, "Elizabeth", "Anna");
 console.log(people);
 
-// 10 slice - it will copy first array + we add bob (end-1)
+// 10. slice - it will copy first array & we add "bob"
 let withBob = people.slice(0, 5);
 withBob.push("Bob");
 console.log(withBob);
+console.log(people)
 
+// 1- another solution option
+// let withBob = [...people.slice(0, 5),"Bob"]
+// console.log(withBob)
 
-
-
-
-// let withBobName = people + "," + "Bob";
-// console.log(withBobName);
-
-
-
+// 2- another solution option
+// let withBobs= people.concat("Bob");
+// console.log(withBobs);
 
