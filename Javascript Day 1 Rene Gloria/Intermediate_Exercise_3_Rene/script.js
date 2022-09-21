@@ -5,5 +5,5 @@ let fruits = "mango/cherries/kiwi/grapes/pear/peach/orange/lemon";
 document.write(fruits.split("/").join("<br>"));
 
 // solution 2
-// document.write(fruits.replaceAll("/", "<br>"));
+//document.write(fruits.replaceAll("/", "<br>"));
 
