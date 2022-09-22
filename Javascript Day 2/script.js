@@ -1,10 +1,11 @@
-let randomNum = Math.floor(Math.random() * 11);
 
-console.log(randomNum);
+// temperature between - 5 and + 25
+let temperature = Math.floor((Math.random() * 31) - 5);
 
+console.log(temperature);
 
-//function getRandomArbitrary(min, max) {
- //   return Math.random() * (25 - -5) + -5;
- // }
-
-  // console.log(Math.random);
+if (temperature < 10) {
+console.log("The weather is cold.")
+} else {
+console.log("The weather is normal.")
+}
