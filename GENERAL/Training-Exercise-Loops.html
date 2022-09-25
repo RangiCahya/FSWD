@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+  for (var i = 0; i < 10 ; i++) {
+      document.write("The index for this iteration is " + i + "<br>");
+       }
+
+
+     var i = 0;
+     while (i < 10) {
+       document.write("2 X "+ i + " = " + (i*2)+ "<br>");
+       i++;
+     }
+
+
+    var i = 1;
+    do {
+        document.write("10 X " + i + (i * 10) + "<br>");
+        i++;
+    } while (i <= 10)
+
+// Loping through arrays
+let array = [1, 2, 3];
+for (let i = 0; i < array.length; i++) {
+    document.write(array[i]);
+}
+
+// same as above
+let colors = [" red ","blue ","green"];
+colors.forEach((value)=> {
+   document.write(value);
+});
+
+
+let colors2 = ["red","blue","green"];
+
+colors2.forEach((value,index)=> {
+   console.log("the value of the element is : " + value);
+   console.log("the index of the element is : " + index);
+});
+
+    </script>
+</body>
+</html>
